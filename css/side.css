@@ -1,0 +1,188 @@
+BODY {
+	FONT-SIZE: 10px; 
+	MARGIN: 0px; 
+	COLOR: #555555; 
+	FONT-FAMILY: "Trebuchet MS", Arial, Verdana; 
+	BACKGROUND-COLOR: #BDC4F9;
+	TEXT-ALIGN: left;
+}
+
+FORM {
+    margin-bottom: 0;
+	margin-top: 0;
+}
+TABLE {
+	BORDER:#660000 1px solid;
+	CELLSPACING: 0px;
+	empty-cells: show 
+}
+
+
+INPUT {
+	COLOR: #736451; 
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: Trebuchet MS,Verdana, Arial, Helvetica, sans-serif; 
+}
+
+A {
+	FONT-WEIGHT: bold; 
+	COLOR: #2a65ad;
+	TEXT-DECORATION: none;
+}
+
+
+#header {
+ background-color:#490713;
+}
+#header H1 {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 30px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px 5px 10px; 
+	TEXT-TRANSFORM: ; 
+	COLOR: #736451; 
+	PADDING-TOP: 5px; 
+	BORDER-BOTTOM: #eeeeee 1px solid; 
+	FONT-FAMILY: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	
+}
+#header H2 {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 15px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px 40px 0px 0px; 
+	TEXT-TRANSFORM: uppercase; 
+	COLOR: #000000; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: #eeeeee 1px solid; 
+	FONT-FAMILY: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif; 
+	TEXT-ALIGN: right;
+	
+
+}
+
+#sidebar {
+    line-height: 2em;
+    FONT-SIZE: 14px; 
+	FLOAT: left; 
+	MARGIN-RIGHT: 10px; 
+	TEXT-ALIGN:left;
+	background-color:#660000;
+	width:100%
+}
+
+#sidebar A {
+	PADDING-RIGHT:0px; 
+	DISPLAY: block; 
+	PADDING-LEFT: 0px;  
+	PADDING-BOTTOM: 5px; 
+	WIDTH: 100%; 
+	PADDING-TOP: 5px; 
+	COLOR:#CC9900; 
+	BORDER:#eeeeee 1px solid; 
+}
+#sidebar A.sub { 
+    line-height: 2em;
+	FONT-WEIGHT: normal;
+	padding-right:5px;
+	
+}
+
+#sidebar A:hover {
+background-color:#66FFFF;
+	
+}
+
+
+#mainbar {
+	padding-top:5px;
+	PADDING-RIGHT:0px; 
+	BACKGROUND-POSITION: left top; 
+	BACKGROUND-IMAGE: url(/DOEdb/images/mainbar.jpg); 
+	MARGIN-BOTTOM: 5px; 
+	BACKGROUND-REPEAT: no-repeat;
+	border:#000099 2px solid;
+}
+
+#mainbar H5 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	TEXT-TRANSFORM: uppercase; 
+	COLOR: #000099; 
+	FONT-FAMILY:  "Trebuchet MS","Century Gothic", "Arial Narrow", Arial, sans-serif;
+	
+}
+#mainbar p{
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px;
+	text-align:right;
+	COLOR: #728c40; 
+	BORDER-BOTTOM: #eeeeee 1px solid;
+	border-top:#eeeeee 1px solid; 
+	FONT-FAMILY:  "Trebuchet MS","Century Gothic", "Arial Narrow", Arial, sans-serif
+}
+#subheading {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 16px; 
+	TEXT-TRANSFORM: uppercase; 
+	COLOR: #728c40; 
+	BORDER-BOTTOM: #eeeeee 1px solid; 
+	FONT-FAMILY: "Trebuchet MS","Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	
+}
+
+
+.neccessary
+  {
+   color:#FF0000;
+   }
+
+.errormessage {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	COLOR: red; 
+	FONT-FAMILY: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif
+}
+
+.validationmessage {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: red;
+	border:thin #000000 solid;
+	margin: auto;
+	FONT-FAMILY: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	display:table;
+	text-align:center;
+}
+
+.selectwidth{ 
+	width:300px; 
+	overflow: scroll;
+}
+.footer{
+	FONT-FAMILY: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	FONT-SIZE: 9px;
+	text-align:center;
+	border-top:#eeeeee 1px solid;
+	padding-top:10px;
+   }
+   
+.mainbar a {
+	
+	margin-top: 10px;
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	
+}	
+.mainbar a:hover
+ {
+ background-color:#BDBFDF;
+ color:#FF9900;
+ }
+ 
